@@ -78,7 +78,7 @@ handleChange= event => {
             name="password"
             value={password}
             onChange={this.handleChange}
-            label='Password'
+            label='Password  (length over 6)'
             required
           />
           <FormInput
